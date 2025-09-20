@@ -59,8 +59,8 @@ def graph_creation(graph_number: int, graph_name: str, unit: str, data_type: str
     
     return graph_params["id"], data
 
-def record_graph_pixel(graph: str, year: int, month:int , day: int, quantity: str) -> None:
-    """It records the quantity of the specified date as a "Pixel" in specified graph.
+def record_graph_pixel(graph: str, year: int, month: int , day: int, quantity: str) -> None:
+    """Record the quantity of the specified date as a "Pixel" in specified graph.
 
     Args:
         graph (str): An ID for identifying the pixelation graph in which the quantity of the specified date as a "Pixel" is about to be recorded.
